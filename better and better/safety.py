@@ -20,7 +20,6 @@ def create_dir(path, n):
     path_dir = os.listdir(path)
     return path_dir
 # print(create_dir(path))
-
 def dir_wenben(path, name, wenben_data):
     for i in create_dir(path, n):
         wenben_dir = os.path.join(path, i)
@@ -30,7 +29,6 @@ def dir_wenben(path, name, wenben_data):
         with open(wenben_wrt, 'w')as f:
             f.write(wenben_data)
 # path=r'/mnt/d/Python/test'
-
 def path_search():
     for roots, dirs, files in os.walk(path):
         search = (roots, dirs, files)
