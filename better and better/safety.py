@@ -7,6 +7,8 @@ import time
 from tqdm import tqdm
 
 path = sys.argv[1]
+if not os.path.exists(path):
+    os.makedirs(path)
 n = int(sys.argv[2])
 the_str = ascii_letters+digits
 
