@@ -21,9 +21,9 @@ temp = []
 for i in w3:
     if not i in temp:
         temp.append(i)
-# # temp=list(set(w3))
-# # temp.sort(key=w3.index)
-# # print(temp)
+# temp=list(set(w3))
+# temp.sort(key=w3.index)
+# print(temp)
 
 def concat(wenjian3, name):
     path = wenjian3+os.sep+name
