@@ -3,7 +3,4 @@
 脚本使用方法:
 python safety.py +生成文件夹文件的路径(路径不存在也行) +生成文件夹的数量
 windows :python safety.py D:\test\ 8
-linux :python3 safety.py /mnt/d/test/ 8 
-脚本的用处good shape：合并文件
-使用的方法：python+ 需要合并的文件1 需要合并的文件2 合并的路径(路径不存在也行)
-pyhon good shape c:/test1 c:/test2 c:/test->
+linux :python3 safety.py /mnt/d/test/ 8 -->
